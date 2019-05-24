@@ -33,13 +33,7 @@ def get_movie_json(movie_title):
 
     file.close()
 
-top_gun_data = get_movie_json('top gun')
+#top_gun_data = get_movie_json('top gun')
 
 
 
-#%%
-self.title = title
-        self.params = {'t':movie_title}
-        self.response = requests.get('http://www.omdbapi.com/?', params)
-        self.url = response.url
-        self.movie_text = response.text
