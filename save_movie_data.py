@@ -1,5 +1,6 @@
 
 """
+Modified from get_movie_json.py
 Checks for movie data file. If not found it pulls info from OMDB API and saves it to file for future use
 Created on Tue May 21 18:31:28 2019
 @author: Miner
@@ -34,8 +35,15 @@ def get_movie_json(movie_title):
 
    
 
+<<<<<<< HEAD
 data = get_movie_json()
 
 
 
 #%%
+=======
+#top_gun_data = get_movie_json('top gun')
+
+
+
+>>>>>>> a4f4d8d0f5d7720f43aa3c295cee080d89291be3
