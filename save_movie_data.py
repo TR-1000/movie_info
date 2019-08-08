@@ -35,7 +35,7 @@ def get_movie_json(movie_title):
 
    
 
-<<<<<<< HEAD
+
 data = get_movie_json()
 
 
